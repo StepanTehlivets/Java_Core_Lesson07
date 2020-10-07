@@ -18,3 +18,4 @@ jar*.
 .settings/
 .classpath
 .project
+/bin/
