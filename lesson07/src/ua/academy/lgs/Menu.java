@@ -1,6 +1,18 @@
+/*
+ * Stepan Tehlivets
+ * Logos IT Academy homework to lesson 07
+ */
+
 package ua.academy.lgs;
 
+/**
+ * @since java 1.8
+ * @author stept
+ * @version 1.0
+ */
+
 public class Menu {
+	/**Method that prints possible cases */
 public static void menu(){
 	System.out.println("Press 1 to show if this month exists");
 	System.out.println("Press 2 to show all months with same season");
