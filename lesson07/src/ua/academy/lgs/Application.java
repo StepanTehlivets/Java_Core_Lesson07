@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 
 public class Application {
-	public static void main(String[] args) throws WrongInputExeption {
+	public static void main(String[] args) throws WrongInputException {
 		
 		/** Array containing ENUM entries */
 		Months[] mons = Months.values();
@@ -79,7 +79,7 @@ public class Application {
 				
 				/** Statement that throw exception if entered data has no equality in ENUMs */
 				if (!flag) {
-					throw new WrongInputExeption("Sorry, input is wrong");
+					throw new WrongInputException("Sorry, input is wrong");
 				}
 
 				break;
@@ -116,7 +116,7 @@ public class Application {
 				
 				/** Statement that throw exception if entered data has no equality in ENUMs */
 				if (!flag) {
-					throw new WrongInputExeption("Sorry, input is wrong");
+					throw new WrongInputException("Sorry, input is wrong");
 				}
 
 				break;
@@ -154,7 +154,7 @@ public class Application {
 				
 				/** Statement that throw exception if entered data has no equality in ENUMs */
 				if (!flag) {
-					throw new WrongInputExeption("Sorry input is wrong");
+					throw new WrongInputException("Sorry input is wrong");
 				}
 				break;
 			}
@@ -191,7 +191,7 @@ public class Application {
 				
 				/** Statement that throw exception if entered data has no equality in ENUMs */
 				if (!flag) {
-					throw new WrongInputExeption("Sorry input is wrong");
+					throw new WrongInputException("Sorry input is wrong");
 				}
 				break;
 			}
@@ -231,7 +231,7 @@ public class Application {
 				
 				/** Statement that throw exception if entered data has no equality in ENUMs */
 				else {
-					throw new WrongInputExeption("Sorry input is wrong");
+					throw new WrongInputException("Sorry input is wrong");
 				}
 
 				break;
@@ -271,7 +271,7 @@ public class Application {
 				}
 				/** Statement that throw exception if entered data has no equality in ENUMs */
 				else {
-					throw new WrongInputExeption("Sorry input is wrong");
+					throw new WrongInputException("Sorry input is wrong");
 				}
 
 				break;
@@ -333,7 +333,7 @@ public class Application {
 
 				/** Statement that throw exception if entered data has no equality in ENUMs */
 				if (!flag) {
-					throw new WrongInputExeption("Sorry input is wrong");
+					throw new WrongInputException("Sorry input is wrong");
 				}
 
 				break;

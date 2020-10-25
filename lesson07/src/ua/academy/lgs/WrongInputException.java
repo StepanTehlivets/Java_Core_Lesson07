@@ -12,10 +12,10 @@ package ua.academy.lgs;
  */
 
 /** Exception that throws when entered input do not equals to anything in array */
-public class WrongInputExeption extends Exception {
+public class WrongInputException extends Exception {
 	private String itsWrong;
 
-	WrongInputExeption(String itsWrong) {
+	WrongInputException(String itsWrong) {
 		super(itsWrong);
 		this.itsWrong = itsWrong;
 
